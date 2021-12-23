@@ -1,4 +1,4 @@
-unit HGM.FMX.LocalizePopup;
+п»їunit HGM.FMX.LocalizePopup;
 
 interface
 
@@ -37,15 +37,15 @@ begin
   for i := 0 to Pred(PopupMenu.ItemsCount) do
   begin
     if PopupMenu.Items[i].StyleName = CopyStyleName then
-      PopupMenu.Items[i].Text := 'Копировать'
+      PopupMenu.Items[i].Text := 'РљРѕРїРёСЂРѕРІР°С‚СЊ'
     else if PopupMenu.Items[i].StyleName = CutStyleName then
-      PopupMenu.Items[i].Text := 'Вырезать'
+      PopupMenu.Items[i].Text := 'Р’С‹СЂРµР·Р°С‚СЊ'
     else if PopupMenu.Items[i].StyleName = PasteStyleName then
-      PopupMenu.Items[i].Text := 'Вставить'
+      PopupMenu.Items[i].Text := 'Р’СЃС‚Р°РІРёС‚СЊ'
     else if PopupMenu.Items[i].StyleName = DeleteStyleName then
-      PopupMenu.Items[i].Text := 'Удалить'
+      PopupMenu.Items[i].Text := 'РЈРґР°Р»РёС‚СЊ'
     else if PopupMenu.Items[i].StyleName = SelectAllStyleName then
-      PopupMenu.Items[i].Text := 'Выбрать всё';
+      PopupMenu.Items[i].Text := 'Р’С‹Р±СЂР°С‚СЊ РІСЃС‘';
   end;
 end;
 
